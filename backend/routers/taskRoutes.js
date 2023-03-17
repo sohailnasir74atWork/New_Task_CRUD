@@ -7,6 +7,7 @@ const router = express.Router()
 router.post("/", createTask)
 /////////////////////get/read all tasks
 router.get("/", getTask )
+
 router.get("/:id", getSingleTask)
 router.delete("/:id", deleteTask)
 router.put("/:id", updateTask)
