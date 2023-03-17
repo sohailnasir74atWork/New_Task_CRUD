@@ -4,7 +4,7 @@ const TaskForm = ({createTask, name, handelInputChange, isEdited, updateTask, })
         <form className="task-form" onSubmit={isEdited ? updateTask : createTask}>
             <input 
                 type="text" 
-                placeholder="Add a task" 
+                placeholder="Add a Name" 
                 name="name" 
                 value={name}
                 onChange={handelInputChange}/>
